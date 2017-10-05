@@ -6,18 +6,13 @@
 package sifing.s;
 
 import Controller.c_Beranda;
+import Controller.c_Sales;
 
-/**
- *
- * @author Rini
- */
 public class SifingS {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         new c_Beranda();
+//        new c_Sales();
     }
     
 }

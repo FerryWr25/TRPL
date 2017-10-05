@@ -18,13 +18,13 @@ import javax.swing.JOptionPane;
  *
  * @author Rini
  */
-public class c_Direktur {
+public class c_HRD {
 
-    private View.Direktur_Home the_v;
+    private View.HRD_Home the_v;
     boolean statusButton_Profile = true;
 
-    public c_Direktur() {
-        the_v = new View.Direktur_Home();
+    public c_HRD() {
+        the_v = new View.HRD_Home();
         the_v.setVisible(true);
         the_v.getPop_Profile().setVisible(false);
         the_v.tombolProfile(new profileListner());

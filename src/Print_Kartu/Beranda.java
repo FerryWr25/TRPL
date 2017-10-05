@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package View;
+package Print_Kartu;
 
 import java.io.FilterOutputStream;
 import com.itextpdf.text.Document;

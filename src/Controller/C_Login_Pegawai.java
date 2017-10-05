@@ -45,7 +45,13 @@ public class C_Login_Pegawai {
                             System.out.println(the_M.getJabatan());
                             new c_Direktur();
                             the_V.dispose();
-                        } 
+                        }  else if (the_M.getJabatan().equalsIgnoreCase("Sales")){
+                            new c_Sales();
+                            the_V.dispose();
+                        } else if (the_M.getJabatan().equalsIgnoreCase("HRD")){
+                            new c_HRD();
+                            the_V.dispose();
+                        }
                     } else {
                          JOptionPane.showMessageDialog(null, "Anda Tidak terdaftar",
                         "Informasi Untuk anda", JOptionPane.INFORMATION_MESSAGE);
